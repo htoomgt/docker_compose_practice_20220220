@@ -14,3 +14,9 @@ Assume the docker compose is already installed.
 ## Referenced Link
 
 - Youtube video tutorial [link](https://www.youtube.com/watch?v=Qw9zlE3t8Ko)
+- Docker Compose run [link](https://docs.docker.com/compose/reference/run/)
+- Lara Dock docker compose usage [link](https://laradock.io/getting-started/#Usage)
+- Automatically remove container after usage [link](https://serverfault.com/questions/750175/docker-compose-option-to-automaticaly-remove-container-after-run-in-docker-comp)
+- Depends on option [link](https://medium.com/@yudapramad/how-depends-on-work-in-docker-compose-89f8afa6d6a0)
+- Docker compose networking [link](https://runnable.com/docker/docker-compose-networking#:~:text=Docker%20Compose%20sets%20up%20a,other%20container%20on%20the%20network.)
+- Network bridge and overlay [link](https://www.edureka.co/community/101298/what-the-difference-between-bridge-network-overlay-network#:~:text=Bridge%20networks%20are%20usually%20used,to%20communicate%20with%20each%20other.)

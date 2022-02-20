@@ -1,0 +1,25 @@
+version: '3'  
+
+services:
+  product-service:
+    build: ./product
+    volumes:
+      - ./product:/usr/src/app
+    ports:
+      - "5001:${WEB_SERVER_PORT}"
+    networks:
+      - my-networks
+
+  website:
+    image: php:apache
+    volumes:
+      - ./website:/var/www/html
+    ports:
+      - "5000:${WEB_SERVER_PORT}"
+    # depends_on:
+    #   - product-service
+    networks:
+      - my-networks
+
+networks:
+  my-networks:
